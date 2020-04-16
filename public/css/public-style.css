@@ -1,0 +1,27 @@
+
+body {
+    background-color: #EBEBEB;
+    font-family: Nunito, Arial, sans-serif;
+}
+
+.personal-blog-wrapper{
+    position: relative;
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-nav {
+    color: #424c54 !important;
+}
+
+.blog-nav:hover {
+    text-decoration: none;
+    color: #20b885 !important;
+}
+
+.sign-in {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

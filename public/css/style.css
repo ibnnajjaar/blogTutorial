@@ -1,0 +1,71 @@
+
+body {
+    background-color: #EBEBEB;
+    font-family: Nunito, Arial, sans-serif;
+}
+.header {
+    border-top: 4px solid #20b885;
+    background-color: #353535;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sidebar {
+    width: 210px;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.content {
+    padding-left: 210px;
+    padding-top: 20px;
+}
+svg {
+    overflow: hidden;
+}
+a.action-icons, a.action-icons:hover {
+    text-decoration: none;
+}
+.sidebar-nav a svg, .action-icons svg {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    fill: #bdbdbd;
+    margin-right: 10px;
+    top: -3px;
+}
+
+.sidebar-nav a.active svg, .sidebar-nav a:hover svg, .action-icons:hover svg {
+    fill: #20b885;
+}
+
+.sidebar-nav a {
+    color: #424c54 !important;
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-top: 5px;
+}
+
+.sidebar-nav a.active, .sidebar-nav a:hover {
+    color: #20b885 !important;
+}
+
+.breadcrumbs-wrapper {
+    position: relative;
+}
+.breadcrumbs {
+    padding: 36px 20px 0px;
+}
+
+.breadcrumbs-wrapper .actions {
+    position: absolute;
+    right: 16px;
+    top: 35px;
+}
