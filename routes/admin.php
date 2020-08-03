@@ -3,11 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 
+Auth::routes(['register' => false]);
+
 Route::group([
-    'namespace' => 'Admin',
-//    'middleware'    =>  'auth',
-    'as' => 'admin.',
-    'prefix' => 'admin',
+    'namespace'     => 'Admin',
+    'middleware'    =>  'auth',
+    'as'            => 'admin.',
+    'prefix'        => 'admin',
 ], function () {
 
     Route::get('/', 'DashboardController@index')->name('dashboard.index');

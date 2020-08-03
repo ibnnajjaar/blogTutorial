@@ -13,10 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::group([
-    'namespace' => 'Web'
+    'namespace' => 'Web',
+    'as' => 'web.'
 ], function (){
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/category/{category:slug}', 'HomeController@category')->name('category');
 });
-
-
